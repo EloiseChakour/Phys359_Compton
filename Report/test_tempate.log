@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2021.1.11)  11 JAN 2021 17:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2021.1.11)  11 JAN 2021 17:13
 entering extended mode
 **./test_tempate.tex
 (test_tempate.tex
@@ -457,267 +457,40 @@ Package upgreek Info: Using Euler Roman for upright Greek on input line 31.
 LaTeX Font Info:    Overwriting symbol font `ugrf@m' in version `bold'
 (Font)                  U/eur/m/n --> U/eur/b/n on input line 38.
 ))
-(C:\Users\elois\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
-Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen183
-\lightrulewidth=\dimen184
-\cmidrulewidth=\dimen185
-\belowrulesep=\dimen186
-\belowbottomsep=\dimen187
-\aboverulesep=\dimen188
-\abovetopsep=\dimen189
-\cmidrulesep=\dimen190
-\cmidrulekern=\dimen191
-\defaultaddspace=\dimen192
-\@cmidla=\count297
-\@cmidlb=\count298
-\@aboverulesep=\dimen193
-\@belowrulesep=\dimen194
-\@thisruleclass=\count299
-\@lastruleclass=\count300
-\@thisrulewidth=\dimen195
-)
-(C:\Users\elois\AppData\Local\Programs\MiKTeX\tex/latex/was\gensymb.sty
-Package: gensymb 2003/07/02 v1.0 (WaS)
-)
-
-! LaTeX Error: Option clash for package geometry.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.13 \usepackage
-                {setspace}
-The package geometry has already been loaded with options:
-  [left=2.5cm,top=2.5cm,right=2.5cm,bottom=2.5cm]
-There has now been an attempt to load it with options
-  [margin=0.6in]
-Adding the global options:
-  left=2.5cm,top=2.5cm,right=2.5cm,bottom=2.5cm,margin=0.6in
-to your \documentclass declaration may fix this.
-Try typing  <return>  to proceed.
-
-(C:\Users\elois\AppData\Local\Programs\MiKTeX\tex/latex/placeins\placeins.sty
-Package: placeins 2005/04/18  v 2.2
-)
-(C:\Users\elois\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
-Package: siunitx 2020/02/25 v2.8b A comprehensive (SI) units package
-
-(C:\Users\elois\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
-Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
-\col@sep=\dimen196
-\ar@mcellbox=\box53
-\extrarowheight=\dimen197
-\NC@list=\toks27
-\extratabsurround=\skip75
-\backup@length=\skip76
-\ar@cellbox=\box54
-)
-\l__siunitx_tmp_box=\box55
-\l__siunitx_tmp_dim=\dimen198
-\l__siunitx_tmp_int=\count301
-\l__siunitx_number_mantissa_length_int=\count302
-\l__siunitx_number_uncert_length_int=\count303
-\l__siunitx_round_int=\count304
-\l__siunitx_process_decimal_int=\count305
-\l__siunitx_process_uncertainty_int=\count306
-\l__siunitx_process_fixed_int=\count307
-\l__siunitx_process_integer_min_int=\count308
-\l__siunitx_process_precision_int=\count309
-\l__siunitx_group_min_int=\count310
-\l__siunitx_angle_marker_box=\box56
-\l__siunitx_angle_unit_box=\box57
-\l__siunitx_angle_marker_dim=\dimen199
-\l__siunitx_angle_unit_dim=\dimen256
-\l__siunitx_unit_int=\count311
-\l__siunitx_unit_denominator_int=\count312
-\l__siunitx_unit_numerator_int=\count313
-\l__siunitx_unit_prefix_int=\count314
-\l__siunitx_unit_prefix_base_int=\count315
-\l__siunitx_unit_prefix_gram_int=\count316
-\l__siunitx_number_product_int=\count317
-\c__siunitx_one_fill_skip=\skip77
-\l__siunitx_table_unit_align_skip=\skip78
-\l__siunitx_table_exponent_dim=\dimen257
-\l__siunitx_table_integer_dim=\dimen258
-\l__siunitx_table_mantissa_dim=\dimen259
-\l__siunitx_table_marker_dim=\dimen260
-\l__siunitx_table_result_dim=\dimen261
-\l__siunitx_table_uncert_dim=\dimen262
-\l__siunitx_table_fill_pre_dim=\dimen263
-\l__siunitx_table_fill_post_dim=\dimen264
-\l__siunitx_table_fill_mid_dim=\dimen265
-\l__siunitx_table_pre_box=\box58
-\l__siunitx_table_post_box=\box59
-\l__siunitx_table_mantissa_box=\box60
-\l__siunitx_table_result_box=\box61
-\l__siunitx_table_number_align_skip=\skip79
-\l__siunitx_table_text_align_skip=\skip80
-
-(C:\Users\elois\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator.s
-ty
-Package: translator 2020-08-03 v1.12c Easy translation of strings in LaTeX
-)) (C:\Users\elois\AppData\Local\Programs\MiKTeX\tex/latex/base\fixltx2e.sty
-Package: fixltx2e 2016/12/29 v2.1a fixes to LaTeX (obsolete)
-Applying: [2015/01/01] Old fixltx2e package on input line 46.
-
-
-Package fixltx2e Warning: fixltx2e is not required with releases after 2015
-(fixltx2e)                All fixes are now in the LaTeX kernel.
-(fixltx2e)                See the latexrelease package for details.
-
-Already applied: [0000/00/00] Old fixltx2e package on input line 53.
-) (C:\Users\elois\AppData\Local\Programs\MiKTeX\tex/latex/base\alltt.sty
-Package: alltt 1997/06/16 v2.0g defines alltt environment
-)
-(C:\Users\elois\AppData\Local\Programs\MiKTeX\tex/latex/comment\comment.sty
-\CommentStream=\write3
-
-Excluding comment 'comment')
-(C:\Users\elois\AppData\Local\Programs\MiKTeX\tex/latex/chngcntr\chngcntr.sty
-Package: chngcntr 2018/04/09 v1.1a change counter resetting
-Package chngcntr Info: \counterwithout already defined.
-(chngcntr)             Quitting chngcntr on input line 21.
-)
-(C:\Users\elois\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
-Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
-\c@tracingmulticols=\count318
-\mult@box=\box62
-\multicol@leftmargin=\dimen266
-\c@unbalance=\count319
-\c@collectmore=\count320
-\doublecol@number=\count321
-\multicoltolerance=\count322
-\multicolpretolerance=\count323
-\full@width=\dimen267
-\page@free=\dimen268
-\premulticols=\dimen269
-\postmulticols=\dimen270
-\multicolsep=\skip81
-\multicolbaselineskip=\skip82
-\partial@page=\box63
-\last@line=\box64
-\maxbalancingoverflow=\dimen271
-\mult@rightbox=\box65
-\mult@grightbox=\box66
-\mult@gfirstbox=\box67
-\mult@firstbox=\box68
-\@tempa=\box69
-\@tempa=\box70
-\@tempa=\box71
-\@tempa=\box72
-\@tempa=\box73
-\@tempa=\box74
-\@tempa=\box75
-\@tempa=\box76
-\@tempa=\box77
-\@tempa=\box78
-\@tempa=\box79
-\@tempa=\box80
-\@tempa=\box81
-\@tempa=\box82
-\@tempa=\box83
-\@tempa=\box84
-\@tempa=\box85
-\@tempa=\box86
-\@tempa=\box87
-\@tempa=\box88
-\@tempa=\box89
-\@tempa=\box90
-\@tempa=\box91
-\@tempa=\box92
-\@tempa=\box93
-\@tempa=\box94
-\@tempa=\box95
-\@tempa=\box96
-\@tempa=\box97
-\@tempa=\box98
-\@tempa=\box99
-\@tempa=\box100
-\@tempa=\box101
-\@tempa=\box102
-\@tempa=\box103
-\@tempa=\box104
-\@tempa=\box105
-\c@minrows=\count324
-\c@columnbadness=\count325
-\c@finalcolumnbadness=\count326
-\last@try=\dimen272
-\multicolovershoot=\dimen273
-\multicolundershoot=\dimen274
-\mult@nat@firstbox=\box106
-\colbreak@box=\box107
-\mc@col@check@num=\count327
-)
-
-! LaTeX Error: Option clash for package graphicx.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.26 \usepackage
-                {amsmath,amssymb}
-The package graphicx has already been loaded with options:
-  []
-There has now been an attempt to load it with options
-  [dvips]
-Adding the global options:
-  ,dvips
-to your \documentclass declaration may fix this.
-Try typing  <return>  to proceed.
-
-(C:\Users\elois\AppData\Local\Programs\MiKTeX\tex/latex/natbib\natbib.sty
-Package: natbib 2010/09/13 8.31b (PWD, AO)
-
-
-Package natbib Warning: The `cite' package should not be used
-(natbib)                with natbib. Use option `sort' instead.
-
-\bibhang=\skip83
-\bibsep=\skip84
-LaTeX Info: Redefining \cite on input line 694.
-LaTeX Info: Redefining \citenum on input line 708.
-\c@NAT@ctr=\count328
-)
-(C:\Users\elois\AppData\Local\Programs\MiKTeX\tex/latex/fundus-calligra\calligr
-a.sty
-Package: calligra 2012/04/10 v1.9 LaTeX package calligra
-) (test_tempate.aux)
+(test_tempate.aux)
 \openout1 = `test_tempate.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
 
 (C:\Users\elois\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count329
-\scratchdimen=\dimen275
-\scratchbox=\box108
-\nofMPsegments=\count330
-\nofMParguments=\count331
-\everyMPshowfont=\toks28
-\MPscratchCnt=\count332
-\MPscratchDim=\dimen276
-\MPnumerator=\count333
-\makeMPintoPDFobject=\count334
-\everyMPtoPDFconversion=\toks29
+\scratchcounter=\count297
+\scratchdimen=\dimen183
+\scratchbox=\box53
+\nofMPsegments=\count298
+\nofMParguments=\count299
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count300
+\MPscratchDim=\dimen184
+\MPnumerator=\count301
+\makeMPintoPDFobject=\count302
+\everyMPtoPDFconversion=\toks28
 )
 (C:\Users\elois\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
 ase.sty
@@ -725,7 +498,7 @@ Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 )
-Package hyperref Info: Link coloring ON on input line 40.
+Package hyperref Info: Link coloring ON on input line 10.
 
 (C:\Users\elois\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -737,16 +510,15 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 lestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count335
+\c@section@level=\count303
 )
-LaTeX Info: Redefining \ref on input line 40.
-LaTeX Info: Redefining \pageref on input line 40.
-LaTeX Info: Redefining \nameref on input line 40.
+LaTeX Info: Redefining \ref on input line 10.
+LaTeX Info: Redefining \pageref on input line 10.
+LaTeX Info: Redefining \nameref on input line 10.
  (test_tempate.out) (test_tempate.out)
-\@outlinefile=\write4
-\openout4 = `test_tempate.out'.
+\@outlinefile=\write3
+\openout3 = `test_tempate.out'.
 
-Package backref Info: ** backref set up for natbib ** on input line 40.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: float package is loaded.
@@ -787,76 +559,77 @@ Package caption Info: End \AtBeginDocument code.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Package chemgreek Info: Activating mapping `upgreek' on line 40.
+Package chemgreek Info: Activating mapping `upgreek' on line 10.
 
-\symgns@font=\mathgroup7
-LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/cmr/m/n --> TS1/cmr/b/n on input line 40.
-Package gensymb Info: Math companion symbols declared on input line 40.
-LaTeX Info: Redefining \degree on input line 40.
-LaTeX Info: Redefining \celsius on input line 40.
-Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 40.
-LaTeX Info: Redefining \ohm on input line 40.
-Package gensymb Info: Using \textohm for \ohm on input line 40.
-Package gensymb Info: Using \textmu for \micro on input line 40.
+[1
 
-(C:\Users\elois\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx-abbrevi
-ations.cfg
-File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
-)
-(C:\Users\elois\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-b
-asic-dictionary-English.dict
-Dictionary: translator-basic-dictionary, Language: English 
-)
-LaTeX Font Info:    Trying to load font information for U+msa on input line 40.
-
+{C:/Users/elois/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
+(test_tempate.toc
+LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
 
 (C:\Users\elois\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 40.
-
+LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
 
 (C:\Users\elois\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-[1
-
-{C:/Users/elois/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
-(test_tempate.toc)
-\tf@toc=\write5
-\openout5 = `test_tempate.toc'.
+))
+\tf@toc=\write4
+\openout4 = `test_tempate.toc'.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.73 \setcounter
+l.45 \setcounter
                 {page}{1} [1]
 <Figures/Figure1.pdf, id=27, 273.76926pt x 155.20392pt>
 File: Figures/Figure1.pdf Graphic file (type pdf)
 <use Figures/Figure1.pdf>
-Package pdftex.def Info: Figures/Figure1.pdf  used on input line 95.
+Package pdftex.def Info: Figures/Figure1.pdf  used on input line 67.
 (pdftex.def)             Requested size: 341.43306pt x 193.57576pt.
 
 
-Package natbib Warning: Citation `Sankey2010Strong' on page 1 undefined on inpu
-t line 100.
+LaTeX Warning: Citation `Sankey2010Strong' on page 1 undefined on input line 72
+.
 
-)
-! Emergency stop.
-<*> ./test_tempate.tex
-                      
-*** (job aborted, no legal \end found)
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.73 
+      [1 <./Figures/Figure1.pdf>]
+No file test_tempate.bbl.
+[2] (test_tempate.aux)
+Package rerunfilecheck Info: File `test_tempate.out' has not changed.
+(rerunfilecheck)             Checksum: EC83467B519D14E474513BD5F9F1956A;111.
 
- 
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 13982 strings out of 479697
- 254477 string characters out of 2867133
- 578466 words of memory out of 3000000
- 30808 multiletter control sequences out of 15000+200000
- 414082 words of font info for 66 fonts, out of 3000000 for 9000
+ 10987 strings out of 479697
+ 177656 string characters out of 2867133
+ 517800 words of memory out of 3000000
+ 27866 multiletter control sequences out of 15000+200000
+ 411993 words of font info for 58 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 105i,6n,111p,782b,752s stack positions out of 5000i,500n,10000p,200000b,50000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 105i,6n,111p,782b,359s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\elois\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
+1200.pk><C:/Users/elois/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmbx10.pfb><C:/Users/elois/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmbx12.pfb><C:/Users/elois/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmmi12.pfb><C:/Users/elois/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/elois/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/elois/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/elois/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/elo
+is/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eurm10.pfb>
+Output written on test_tempate.pdf (4 pages, 115649 bytes).
+PDF statistics:
+ 86 PDF objects out of 1000 (max. 8388607)
+ 7 named destinations out of 1000 (max. 500000)
+ 22 words of extra memory for PDF output out of 10000 (max. 10000000)
+
