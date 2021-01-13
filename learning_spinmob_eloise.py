@@ -9,8 +9,8 @@ import spinmob as s
 import mcphysics
 
 
-mcphysics.playground.fitting_statistics_demo()
+#mcphysics.playground.fitting_statistics_demo()
 
-mcphysics.data.load_chn()
+#mcphysics.data.load_chn()
 
 mcphysics.data.plot_chns()
