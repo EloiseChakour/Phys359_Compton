@@ -7,10 +7,20 @@ This is a temporary script file.
 
 import spinmob as s
 import mcphysics
-
+import matplotlib.pyplot as plt
 
 #mcphysics.playground.fitting_statistics_demo()
 
-#mcphysics.data.load_chn()
+#%%
+#ctrl+enter to run cell
 
-mcphysics.data.plot_chns()
+d = mcphysics.data.load_chns(combine=True)
+#lt.plot(d[0],d[1])
+
+x = d[0]
+y = d[1]
+
+plt.plot(x,y)
+
+#%%
+#mcphysics.data.plot_chns(combine=True)
