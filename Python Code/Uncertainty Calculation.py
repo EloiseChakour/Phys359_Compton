@@ -38,7 +38,7 @@ var=abs((sum(squares)/len(squares))-avg**2)
 #Standard Deviation
 std=(var)**(1/2)
 
-error=std/(len(shortened_y))**(0.5)
+error=std/(10*len(shortened_y))**(0.5)
 
 
 print(error)
