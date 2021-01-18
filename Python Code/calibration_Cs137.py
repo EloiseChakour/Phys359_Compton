@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sat Jan 16 19:30:25 2021
+Created on Mon Jan 18 15:35:10 2021
 
-@author: eloise
+@author: elois
 """
 
 import spinmob as s
@@ -21,7 +21,7 @@ shortened_x = x[1500:2000]
 shortened_y = y[1500:2000]
 
 f=s.data.fitter()
-f.set_functions('a*exp(-(x-b)**2/(2*c**2))','a=80,b=1750,c=64')
+f.set_functions('a*exp(-(x-b)**2/(2*c**2))','a=80,b=1740,c=62')
 #Gaussian Function with guessed value for parameter a,b,c 
 #Data point with error as the last parameter
 #f.set_data(x, y, 0.1) 
@@ -34,8 +34,3 @@ f.fit()
 
 #plt.plot(x,y)
 plt.plot(shortened_x, shortened_y)
-
-
-
-
-
