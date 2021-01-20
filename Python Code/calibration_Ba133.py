@@ -8,6 +8,7 @@ Created on Mon Jan 18 15:19:10 2021
 import spinmob as s
 import mcphysics as mcp
 import matplotlib.pyplot as plt
+import numpy as np
 
 #Loading and reformatting data
 summed_databox = mcp.data.load_chns(combine=True)
@@ -25,7 +26,7 @@ f.set_functions('a*exp(-(x-b)**2/(2*c**2))+150','a=2950,b=95.5,c=10')
 #Gaussian Function with guessed value for parameter a,b,c 
 #Data point with error as the last parameter
 #f.set_data(x, y, 0.1) 
-f.set_data(shortened_x,shortened_y, 21.07)
+f.set_data(shortened_x,shortened_y, np.sqrt(shortened_y))
 f.fit()
 
 
