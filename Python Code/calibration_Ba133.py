@@ -10,7 +10,6 @@ import mcphysics as mcp
 import matplotlib.pyplot as plt
 import numpy as np
 
-
 #Loading and reformatting data
 summed_databox = mcp.data.load_chns(combine=True)
 

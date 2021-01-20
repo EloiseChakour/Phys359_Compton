@@ -8,8 +8,10 @@ Created on Mon Jan 18 15:11:47 2021
 import spinmob as s
 import mcphysics as mcp
 import matplotlib.pyplot as plt
-from scipy.special import erfc
+
 import numpy as np
+
+
 
 #Loading and reformatting data
 summed_databox = mcp.data.load_chns(combine=True)
