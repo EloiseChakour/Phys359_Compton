@@ -22,6 +22,7 @@ shortened_x = x[310:410]
 #This is counts
 shortened_y = y[310:410]
 
+
 f=s.data.fitter()
 f.set_functions('a*exp(-(x-b)**2/(2*c**2)) ','a=15500,b=355,c=18')
 #Gaussian Function with guessed value for parameter a,b,c 
