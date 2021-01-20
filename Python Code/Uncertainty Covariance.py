@@ -5,11 +5,6 @@ Created on Mon Jan 18 13:54:14 2021
 @author: I don't know
 """
 
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Jan 16 19:30:25 2021
-@author: eloise
-"""
 
 
 
