@@ -8,7 +8,9 @@ Created on Mon Jan 18 15:11:47 2021
 import spinmob as s
 import mcphysics as mcp
 import matplotlib.pyplot as plt
+
 import numpy as np
+
 
 
 #Loading and reformatting data
@@ -23,7 +25,7 @@ shortened_x = x[1200:1550]
 shortened_y = y[1200:1550]
 
 f=s.data.fitter()
-f.set_functions('a*exp(-(x-b)**2/(2*c**2))+32 - 0.014*x','a=170,b=1360,c=50')
+f.set_functions('a*exp(-(x-b)**2/(2*c**2))','a=170,b=1360,c=50')
 #Gaussian Function with guessed value for parameter a,b,c 
 #Data point with error as the last parameter
 #f.set_data(x, y, 0.1) 
