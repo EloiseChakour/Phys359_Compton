@@ -34,7 +34,7 @@ f.fit()
 
 
 #plt.plot(x,y)
-plt.plot(shortened_x, shortened_y)
+#plt.plot(shortened_x, shortened_y)
 
 
 
