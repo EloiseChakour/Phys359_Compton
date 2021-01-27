@@ -23,6 +23,7 @@ shortened_x = x[300:400]
 shortened_y = y[300:400]
 
 
+
 f=s.data.fitter()
 f.set_functions('a*exp(-(x-b)**2/(2*c**2)) + d*exp(-(x-e)**2/(2*c**2)) + 2500 - 4.10*x','a=14697,b=354,c=15.6, d= 1106, e= 388.8')
 #Gaussian Function with guessed value for parameter a,b,c 
