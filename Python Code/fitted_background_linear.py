@@ -22,14 +22,17 @@ b = 1900
 #This is by channel
 shortened_x = np.array(x[a:b])
 #This is counts
-shortened_y = y[a:b]
+shortened_y = np.array(y[a:b])
 
+for i in range(len(shortened_y)):
+    if shortened_y[i] ==0:
+        shortened_y +=1
 #Converting Channel Number to energy value
 
-energy = 0.374*shortened_x - 4.8
+energy = 0.3736*shortened_x - 5.155
 
 f=s.data.fitter()
-f.set_functions('a*exp(-(x-b)**2/(2*c**2))+d-m*x','a=76,b=655,c=21, d = 53, m = 0.0775')
+f.set_functions('a*exp(-(x-b)**2/(2*c**2))+d-m*x','a=76,b=647,c=21, d = 53, m = 0.0775')
 #Gaussian Function with guessed value for parameter a,b,c 
 #Data point with error as the last parameter
 #f.set_data(x, y, 0.1) 
