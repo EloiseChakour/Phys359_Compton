@@ -16,8 +16,8 @@ summed_databox = mcp.data.load_chns(combine=True)
 x = summed_databox[0]
 y = summed_databox[1]
 
-a = 1600
-b = 1900
+a = 550
+b = 850
 
 #This is by channel
 shortened_x = np.array(x[a:b])
@@ -32,11 +32,12 @@ for i in range(len(shortened_y)):
 energy = 0.3736*shortened_x - 5.155
 
 f=s.data.fitter()
-f.set_functions('a*exp(-(x-b)**2/(2*c**2))+d-m*x','a=76,b=647,c=21, d = 53, m = 0.0775')
+f.set_functions('a*exp(-(x-b)**2/(2*c**2))+d-m*x','a=80,b=250,c=21, d = 66, m = 0.0675')
 #Gaussian Function with guessed value for parameter a,b,c 
 #Data point with error as the last parameter
 #f.set_data(x, y, 0.1) 
 f.set_data(energy,shortened_y, np.sqrt(shortened_y))
+values = f.get_fit_values()
 f.fit()
 
 
