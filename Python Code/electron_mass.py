@@ -6,32 +6,28 @@ Created on Mon Jan 25 16:02:14 2021
 """
 
 import spinmob as s
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 import numpy as np
 
 
-angles = np.array([-105.0, -95.0, -85.0, -75.0, -55.0, -45.0, 40.0, 50.0, 60.0, 70.0, 80.0, 100.0])
+#Angles given by the physical display (in degrees)
+angles = np.array([75.0, 85.0, 95.0, 105.0, 125.0, 135.0, 220.0, 230.0, 240.0, 250.0, 260.0, 280.0])
+
+#Peaks found (in kev) from fitting
+peaks = np.array([252.74, 274.63, 303.33, 334.03, 418.65, 470.92, 503.43, 452.6, 407.58, 361.91, 325.81, 267.71])
+
+#Errors given on fitted peak parameter (in kev)
+errors = np.array([0.32, 0.45, 0.39, 0.39, 0.41, 0.42, 0.4, 0.4, 0.42, 0.42, 0.41, 0.41])
 
 
-angles_rad = angles*(1.0/(2.0*np.pi))
-"""
-angles_cosine = np.cos(angles_rad)
 
-angle_term = 1- angles_cosine
-"""
-
-peaks_channels = np.array([690, 750, 827, 914, 1135, 1274, 1359, 1223, 1103, 980, 884, 729])
-
-peaks_energies = 0.3736*peaks_channels - 5.155
-
-#energy_diff = peaks_energies - 661.657
 
 f=s.data.fitter()
-f.set_functions('(1/(m_e) - (1-m_e) * cos(c*x) + b)','m_e = 517, c=0.06, b = 420')
+f.set_functions('  1.0 / ( (1.0/E_0) - (1.0/m_e) * ( 1.0 - cos(radians(x)) ) ) ','m_e = 510, E_0= 661 ')
 #Gaussian Function with guessed value for parameter a,b,c 
 #Data point with error as the last parameter
 #f.set_data(x, y, 0.1) 
-f.set_data(angles_rad, peaks_energies, 10)
+f.set_data(angles, peaks, errors)
 f.fit()
 
 #s.plot.xy.data(angles_rad, peaks_energies, eydata = 1, exdata = 0.5)
