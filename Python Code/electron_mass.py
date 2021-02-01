@@ -23,7 +23,7 @@ errors = np.array([0.32, 0.45, 0.39, 0.39, 0.41, 0.42, 0.4, 0.4, 0.42, 0.42, 0.4
 
 
 f=s.data.fitter()
-f.set_functions('  1.0 / ( (1.0/E_0) - (1.0/m_e) * ( 1.0 - cos(radians(x)) ) ) ','m_e = 510, E_0= 661 ')
+f.set_functions('  1.0 / ( (1.0/E_0) - (1.0/m_e) * ( 1.0 - cos(radians(x-180.0)) ) ) ','m_e = 510, E_0= 661 ')
 #Gaussian Function with guessed value for parameter a,b,c 
 #Data point with error as the last parameter
 #f.set_data(x, y, 0.1) 
