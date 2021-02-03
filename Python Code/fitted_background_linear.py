@@ -32,7 +32,7 @@ for i in range(len(shortened_y)):
 energy = 0.3736*shortened_x - 5.155
 
 f=s.data.fitter()
-f.set_functions('a*exp(-(x-b)**2/(2*c**2)) + d*(-0.031*x + 37.3)','a=44,b=272,c=14, d = 0.7')
+f.set_functions('a*exp(-(x-b)**2/(2*c**2)) + d*(-0.1525*x + 50.6 - 1.375*erf(x-b))','a=45, b=270, c=18 , d=1.6')
 #Gaussian Function with guessed value for parameter a,b,c 
 #Data point with error as the last parameter
 #f.set_data(x, y, 0.1) 
