@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
-angles = np.array([-105.0, -95.0, -85.0, -75.0, -55.0, -45.0, 40.0, 50.0, 60.0, 70.0, 80.0, 100.0])
+angles =  np.array([75.0, 85.0, 95.0, 105.0, 125.0, 135.0, 220.0, 230.0, 240.0, 250.0, 260.0, 280.0])
 
 
 angles_rad = angles*(1.0/(2.0*np.pi))
