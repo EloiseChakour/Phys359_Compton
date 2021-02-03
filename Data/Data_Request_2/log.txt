@@ -1,0 +1,168 @@
+
+yacine.benkirane@mail.mcgill.ca requesting 5 files per target at 75 degrees:
+  No Scatterer (After)
+    61/300: Transferred file 1
+    62/300: Transferred file 6
+    63/300: Transferred file 10
+    64/300: Transferred file 13
+    65/300: Transferred file 33
+  No Scatterer (Before)
+    66/300: Transferred file 16
+    67/300: Transferred file 21
+    68/300: Transferred file 24
+    69/300: Transferred file 27
+    70/300: Transferred file 36
+
+yacine.benkirane@mail.mcgill.ca requesting 5 files per target at 85 degrees:
+  No Scatterer (After)
+    71/300: Transferred file 7
+    72/300: Transferred file 13
+    73/300: Transferred file 14
+    74/300: Transferred file 20
+    75/300: Transferred file 39
+  No Scatterer (Before)
+    76/300: Transferred file 9
+    77/300: Transferred file 10
+    78/300: Transferred file 18
+    79/300: Transferred file 28
+    80/300: Transferred file 36
+
+yacine.benkirane@mail.mcgill.ca requesting 5 files per target at 95 degrees:
+  No Scatterer (After)
+    81/300: Transferred file 0
+    82/300: Transferred file 23
+    83/300: Transferred file 28
+    84/300: Transferred file 36
+    85/300: Transferred file 37
+  No Scatterer (Before)
+    86/300: Transferred file 1
+    87/300: Transferred file 9
+    88/300: Transferred file 16
+    89/300: Transferred file 25
+    90/300: Transferred file 31
+
+yacine.benkirane@mail.mcgill.ca requesting 5 files per target at 105 degrees:
+  No Scatterer (After)
+    91/300: Transferred file 3
+    92/300: Transferred file 16
+    93/300: Transferred file 29
+    94/300: Transferred file 32
+    95/300: Transferred file 36
+  No Scatterer (Before)
+    96/300: Transferred file 0
+    97/300: Transferred file 2
+    98/300: Transferred file 16
+    99/300: Transferred file 31
+    100/300: Transferred file 37
+
+yacine.benkirane@mail.mcgill.ca requesting 5 files per target at 125 degrees:
+  No Scatterer (After)
+    101/300: Transferred file 9
+    102/300: Transferred file 11
+    103/300: Transferred file 30
+    104/300: Transferred file 32
+    105/300: Transferred file 35
+  No Scatterer (Before)
+    106/300: Transferred file 5
+    107/300: Transferred file 9
+    108/300: Transferred file 29
+    109/300: Transferred file 33
+    110/300: Transferred file 35
+
+yacine.benkirane@mail.mcgill.ca requesting 5 files per target at 135 degrees:
+  No Scatterer (After)
+    111/300: Transferred file 0
+    112/300: Transferred file 2
+    113/300: Transferred file 6
+    114/300: Transferred file 22
+    115/300: Transferred file 27
+  No Scatterer (Before)
+    116/300: Transferred file 2
+    117/300: Transferred file 9
+    118/300: Transferred file 14
+    119/300: Transferred file 23
+    120/300: Transferred file 32
+
+yacine.benkirane@mail.mcgill.ca requesting 5 files per target at 220 degrees:
+  No Scatterer (After)
+    121/300: Transferred file 3
+    122/300: Transferred file 8
+    123/300: Transferred file 12
+    124/300: Transferred file 29
+    125/300: Transferred file 32
+  No Scatterer (Before)
+    126/300: Transferred file 7
+    127/300: Transferred file 15
+    128/300: Transferred file 30
+    129/300: Transferred file 31
+    130/300: Transferred file 38
+
+yacine.benkirane@mail.mcgill.ca requesting 5 files per target at 230 degrees:
+  No Scatterer (After)
+    131/300: Transferred file 12
+    132/300: Transferred file 13
+    133/300: Transferred file 17
+    134/300: Transferred file 33
+    135/300: Transferred file 39
+  No Scatterer (Before)
+    136/300: Transferred file 1
+    137/300: Transferred file 2
+    138/300: Transferred file 11
+    139/300: Transferred file 17
+    140/300: Transferred file 23
+
+yacine.benkirane@mail.mcgill.ca requesting 5 files per target at 240 degrees:
+  No Scatterer (After)
+    141/300: Transferred file 7
+    142/300: Transferred file 33
+    143/300: Transferred file 34
+    144/300: Transferred file 37
+    145/300: Transferred file 38
+  No Scatterer (Before)
+    146/300: Transferred file 10
+    147/300: Transferred file 14
+    148/300: Transferred file 18
+    149/300: Transferred file 24
+    150/300: Transferred file 34
+
+yacine.benkirane@mail.mcgill.ca requesting 5 files per target at 250 degrees:
+  No Scatterer (After)
+    151/300: Transferred file 3
+    152/300: Transferred file 6
+    153/300: Transferred file 24
+    154/300: Transferred file 28
+    155/300: Transferred file 33
+  No Scatterer (Before)
+    156/300: Transferred file 2
+    157/300: Transferred file 4
+    158/300: Transferred file 7
+    159/300: Transferred file 12
+    160/300: Transferred file 37
+
+yacine.benkirane@mail.mcgill.ca requesting 5 files per target at 260 degrees:
+  No Scatterer (After)
+    161/300: Transferred file 8
+    162/300: Transferred file 16
+    163/300: Transferred file 26
+    164/300: Transferred file 27
+    165/300: Transferred file 35
+  No Scatterer (Before)
+    166/300: Transferred file 1
+    167/300: Transferred file 4
+    168/300: Transferred file 24
+    169/300: Transferred file 34
+    170/300: Transferred file 36
+
+yacine.benkirane@mail.mcgill.ca requesting 5 files per target at 280 degrees:
+  No Scatterer (After)
+    171/300: Transferred file 11
+    172/300: Transferred file 23
+    173/300: Transferred file 27
+    174/300: Transferred file 35
+    175/300: Transferred file 38
+  No Scatterer (Before)
+    176/300: Transferred file 8
+    177/300: Transferred file 15
+    178/300: Transferred file 23
+    179/300: Transferred file 29
+    180/300: Transferred file 30
