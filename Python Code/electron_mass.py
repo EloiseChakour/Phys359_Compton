@@ -27,7 +27,9 @@ peak_04 = np.array([647.04, 650.39, 649.25, 650.39, 649.66, 647.04, 648.6, 650.3
 errors = peak_00 - peak_04
 
 f=s.data.fitter()
-f.set_functions('  1.0 / ( (1.0/E_0) + (1.0/m_e) * ( 1.0 - cos(radians(x-z)) ) ) ','m_e = 510.0, E_0= 661.0, z=180.0 ')
+
+f.set_functions('  1.0 / ( (1.0/E_0) + (1.0/m_e) * ( 1.0 - cos(radians(x-z)) ) ) ','m_e = 510, E_0= 661, z=180 ')
+
 #Gaussian Function with guessed value for parameter a,b,c 
 #Data point with error as the last parameter
 #f.set_data(x, y, 0.1) 
