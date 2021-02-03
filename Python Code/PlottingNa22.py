@@ -18,13 +18,16 @@ y = summed_databox[1]
 
 #This is by channel
 
-shortened_x = x[1600:1900]
+l = 1200
+r = 1550
+
+shortened_x = x[l:r]
 #This is counts
-shortened_y = y[1600:1900]
+shortened_y = y[l:r]
 
 
 f=s.data.fitter()
-f.set_functions('a*exp(-(x-b)**2/(2*c**2))+33-0.0166*x','a=80,b=1742,c=62')
+f.set_functions('a*exp(-(x-b)**2/(2*c**2))+d-m*x','a=171,b=1367,c=48, d=58, m=0.0324')
 #Gaussian Function with guessed value for parameter a,b,c 
 #Data point with error as the last parameter
 #f.set_data(x, y, 0.1) 
