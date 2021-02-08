@@ -24,9 +24,9 @@ errors2 = [4.7, 8.5, 7.9, 7.9, 22, 24, 28]
 
 
 f=s.data.fitter()
-f.set_functions('m*x + b','m = 2.67, b=13')
+f.set_functions('m*x + b','m = 2.76, b=5.03')
 #Gaussian Function with guessed value for parameter a,b,c 
 #Data point with error as the last parameter
 #f.set_data(x, y, 0.1) 
-f.set_data(energy, channel, errors)
+f.set_data(energy, channel, errors_channel)
 f.fit()

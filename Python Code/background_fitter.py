@@ -19,8 +19,8 @@ y = summed_databox[1]
 
 #This is by channel
 
-a=1000
-b=1450
+a=600
+b=850
 
 shortened_x = x[a:b]
 shortened_y = y[a:b]
@@ -33,7 +33,7 @@ for i in range(len(shortened_y)):
 energy = 0.3736*shortened_x - 5.155
 
 f=s.data.fitter()
-f.set_functions('-a*x+b + c*erf(x-d)','a=-5,b=15, c = -5, d=400')
+f.set_functions('-a*x+b + c*erf(x-275.87)','a=-5,b=15, c = -5, d=400')
 #Gaussian Function with guessed value for parameter a,b,c 
 #Data point with error as the last parameter
 #f.set_data(x, y, 0.1) 

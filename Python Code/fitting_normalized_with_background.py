@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Spyder Editor
+Created on Mon Feb  8 16:39:04 2021
 
-This is a temporary script file.
+@author: elois
 """
 
 import spinmob as s
@@ -16,7 +16,7 @@ summed_databox = mcp.data.load_chns(combine=True)
 x = summed_databox[0]
 y = summed_databox[1]
 
-a = 600
+a = 550
 b = 850
 
 #This is by channel
@@ -32,34 +32,12 @@ for i in range(len(shortened_y)):
 energy = 0.3736*shortened_x - 5.155
 
 f=s.data.fitter()
-f.set_functions('a*exp(-(x-b)**2/(2*c**2)) + d*(-0.043*x + 20.35 - 1.385*erf(x-b))','a=47, b=278.8, c=15 , d=1.6')
+f.set_functions('(a/(c * sqrt(2 * pi)))* exp(-0.5* (x - b)**2/(c**2)) + d*(-0.043*x + 20.35 - 1.385*erf(x-b))','a=1873, b=253.8, c=13.8 , d=2.0')
+#f.set_functions('(a/(c * sqrt(2 * pi)))* exp(-0.5* (x - b)**2/(c**2)) + 15','a=2200, b=250.8, c=16')
+
 #Gaussian Function with guessed value for parameter a,b,c 
 #Data point with error as the last parameter
 #f.set_data(x, y, 0.1) 
 f.set_data(energy,shortened_y, np.sqrt(shortened_y))
 values = f.get_fit_values()
 f.fit()
-
-values = f.get_fit_values()
-errors = f.get_fit_standard_errors()
-
-
-#This doesn't actually work yet ...
-"""
-save_file =open("save_file.txt", "w")
-
-for i in range(len(values)):
-    np.savetxt(values, i)
-
-for i in range(len(errors)):
-    np.savetxt(errors, i)
-
-save_file.close()
-
-print(values)
-"""
-
-
-#plt.plot(x,y)
-#plt.plot(shortened_x, shortened_y)
-
