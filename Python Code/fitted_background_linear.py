@@ -7,7 +7,7 @@ This is a temporary script file.
 
 import spinmob as s
 import mcphysics as mcp
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 import numpy as np
 
 #Loading and reformatting data
@@ -16,8 +16,8 @@ summed_databox = mcp.data.load_chns(combine=True)
 x = summed_databox[0]
 y = summed_databox[1]
 
-a = 600
-b = 850
+a = 500
+b = 700
 
 #This is by channel
 shortened_x = np.array(x[a:b])
@@ -32,7 +32,8 @@ for i in range(len(shortened_y)):
 energy = 0.3736*shortened_x - 5.155
 
 f=s.data.fitter()
-f.set_functions('a*exp(-(x-b)**2/(2*c**2)) + d*(-0.043*x + 20.35 - 1.385*erf(x-b))','a=47, b=278.8, c=15 , d=1.6')
+#f.set_functions('a*exp(-(x-b)**2/(2*c**2)) + d*(-0.043*x + 30.35 - 10.585*erf(x-b))','a=47, b=234.8, c=15 , d=1.6')
+#f.set_functions('a*exp(-(x-b)**2/(2*c**2))+d-e*x','a=80,b=221,c=12,d=-0.5,e=0.55')
 #Gaussian Function with guessed value for parameter a,b,c 
 #Data point with error as the last parameter
 #f.set_data(x, y, 0.1) 
